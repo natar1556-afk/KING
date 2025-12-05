@@ -8,7 +8,7 @@ print('app.py created with initial imports.')
 st.title('Dataset Analysis Application')
 
 # Load the dataset
-df = pd.read_csv('/content/mark.csv')
+df = pd.read_csv('mark.csv')
 st.subheader('Raw Data (First 5 Rows)')
 st.dataframe(df.head())
 
